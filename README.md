@@ -5,5 +5,4 @@ A complete ETL pipeline that extracts weather data from WeatherAPI, transforms i
 ### Prerequisites
 
 Docker & Docker Compose
-
 WeatherAPI key (free at [weatherapi.com](https://www.weatherapi.com/))
