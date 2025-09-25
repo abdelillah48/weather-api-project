@@ -84,30 +84,33 @@ docker-compose ps
 ## Résultats
 
 ### Vue d'ensemble
-![Tous les DAGs](https://screenshots/all-dags.png)
+<img src="screenshots/all-dags.png" width="800" alt="Tous les DAGs actifs">
 *Les 3 DAGs actifs dans le tag "Weather Project"*
 
 ### XCom Traditionnel
-![Tâches XCom vertes](https://screenshots/xcom-tasks-green.png)
+<img src="screenshots/xcom-tasks-green.png" width="400" alt="Tâches XCom vertes">
 *Toutes les tâches exécutées avec succès*
 
-![Logs XCom](https://screenshots/xcom-logs.png)
+<img src="screenshots/xcom-logs.png" width="400" alt="Logs XCom">
 *Résultats dans les logs de la tâche load*
 
 ### TaskFlow API
-![Tâches TaskFlow vertes](https://screenshots/taskflow-tasks-green.png)
+<img src="screenshots/taskflow-tasks-green.png" width="400" alt="Tâches TaskFlow vertes">
 *Tâches TaskFlow réussies*
 
-![Logs TaskFlow](https://screenshots/taskflow-logs.png)
+<img src="screenshots/taskflow-logs.png" width="400" alt="Logs TaskFlow">
 *Résultats dans les logs de la tâche load*
 
 ### PostgreSQL
-![Tâches PostgreSQL vertes](https://screenshots/postgres-tasks-green.png)
+<img src="screenshots/postgres-tasks-green.png" width="400" alt="Tâches PostgreSQL vertes">
 *Insertion en base réussie*
 
-![Données PostgreSQL](https://screenshots/postgres-data.png)
+<img src="screenshots/postgres-data.png" width="400" alt="Données PostgreSQL">
 *Données stockées dans la table weather_data*
 
+---
+
+**Toutes les méthodes fonctionnent et produisent les mêmes données météo.** ✅
 ---
 
 **Toutes les méthodes fonctionnent et produisent les mêmes données météo.** ✅
