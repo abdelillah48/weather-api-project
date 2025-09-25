@@ -80,3 +80,34 @@ docker-compose ps
 ```
 'Key': 'VOTRE_CLE_API'
 ```
+
+## Résultats
+
+### Vue d'ensemble
+![Tous les DAGs](https://screenshots/all-dags.png)
+*Les 3 DAGs actifs dans le tag "Weather Project"*
+
+### XCom Traditionnel
+![Tâches XCom vertes](https://screenshots/xcom-tasks-green.png)
+*Toutes les tâches exécutées avec succès*
+
+![Logs XCom](https://screenshots/xcom-logs.png)
+*Résultats dans les logs de la tâche load*
+
+### TaskFlow API
+![Tâches TaskFlow vertes](https://screenshots/taskflow-tasks-green.png)
+*Tâches TaskFlow réussies*
+
+![Logs TaskFlow](https://screenshots/taskflow-logs.png)
+*Résultats dans les logs de la tâche load*
+
+### PostgreSQL
+![Tâches PostgreSQL vertes](https://screenshots/postgres-tasks-green.png)
+*Insertion en base réussie*
+
+![Données PostgreSQL](https://screenshots/postgres-data.png)
+*Données stockées dans la table weather_data*
+
+---
+
+**Toutes les méthodes fonctionnent et produisent les mêmes données météo.** ✅
