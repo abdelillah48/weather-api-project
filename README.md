@@ -102,7 +102,7 @@ docker-compose ps
 *Résultats dans les logs de la tâche load*
 
 ### PostgreSQL
-<img src="screenshots/postgres-tasks-green.png" width="400" alt="Tâches PostgreSQL vertes">
+<img src="screenshots/postgres-tasks-green.png" width="800" alt="Tâches PostgreSQL vertes">
 *Insertion en base réussie*
 
 <img src="screenshots/postgres-data.png" width="800" alt="Données PostgreSQL">
